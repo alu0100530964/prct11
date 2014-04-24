@@ -1,0 +1,82 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage {graphicx}
+
+\title {El número $\pi$}
+\author[Maria]{María Baeza López}
+\institute{Facultad de Matemáticas}
+\date[24/04/2014]{La Laguna, 24 de Abril de 2014}
+\usetheme{Madrid}
+\definecolor{MiVioleta}{RGB}{122,59,122}
+\definecolor{MiAzul}{RGB}{0,88,147}
+\definecolor{MiGris}{RGB}{56,61,66}
+\setbeamercolor*{palette primary}{use=structure,fg=white,bg=MiVioleta}
+\setbeamercolor*{palette secundary}{use=structure,fg=white,bg=MiAzul}
+\setbeamercolor*{palette tertiary}{use=structure,fg=white,bg=MiGris}
+\begin{document}
+\begin{frame} 
+\titlepage 
+\end {frame}
+\begin{frame} 
+\frametitle{Indice}
+\tableofcontents[pausesections]
+\end {frame}
+\section {Introducción}
+\begin{frame} 
+\frametitle{Introducción}
+El número $\pi$ es posiblemente la constante numérica más estudiada a lo largo de la historia. Su entorno, aunque en apariencia sólo a nivel matemático, a ha 
+trascendido las fronteras de esta disciplina y es así como ha suscitado el interés de hombres en diversas áreas del conocimiento. La revisión de su desarrollo 
+histórico es, por tanto, una combinación amena de aspectos científicos, anecdóticos y culturales.
+\end {frame}
+\section {Marco general}
+\begin{frame} 
+\frametitle{General}
+La historia del número $\pi$ puede dividirse en tres períodos claramente establecidos, los cuales se diferencian entre sí por aspectos relacionados con el método,
+propósitos inmediatos y las herramientas científicas e intelectuales disponibles:
+\begin{itemize}
+\item Primer Periodo: Las primeras trazas de la determinación de $\pi$ son encontradas en diferentes papiros de gran antigüedad, que a manera de catálogos incluían en las modalidades de 
+escritura de las respectivas épocas, grupos de problemas y su correspondiente solución, reflejo del estado de las matemáticas de aquella cultura a la que pertenecen.
+El más conocido de ellos es el llamado papiro de Rhind \pause
+\item Segundo Periodo: El establecimiento de los fundamentos del cálculo diferencial e integral por parte de Newton y Leibniz durante la segunda mitad del siglo XVII, y los posteriores
+desarrollos en esta área abren, como se mencionó previamente en el marco general, la segunda parte de esta historia.
+\end{itemize}
+\end {frame}
+\begin{frame} 
+\frametitle{General}
+\begin{itemize}
+\item Tercer Periodo:El tercer período de esta historia podría resumirse en las respuestas que se obtuvieron a la pregunta: ¿Cuál es el lugar de entre los números?. En efecto, los trabajos
+realizados durante este período se enfocaron principalmente a la investigación de la real naturaleza de $\pi$.
+Debido a la estrecha relación de este número con la constante e , la base de los logaritmos naturales, la investigación de los dos números fue llevada casi de manera 
+simultánea.
+\end{itemize}
+\end {frame}
+\section {Fórmulas}
+\begin{frame}
+\frametitle{Fórmulas}
+\linecenter El número $\pi$ es infinito, las primeras 2 cifras son : $\pi \approx 3.14$
+
+El número $\pi$ las primeras 4 cifras son : $\pi \approx 3.1415$
+
+El número $\pi$ las primeras 6 cifras son : $\pi \approx 3.141592$
+
+El número $\pi$ las primeras 8 cifras son : $\pi \approx 3.14159265$
+
+Podemos seguir haciendo aproximaciones de $\pi$ gracias a la fórmula:
+\begin{block}{Aproximación}
+$\pi \approx \sum^{n}_{i=1} f(x_i)$
+\end{block}
+\end {frame}
+\begin{frame} 
+\frametitle{Bibliografía}
+\begin{thebibliography}
+\beamertermplatebookbibitems
+\bibitem[Guia Docente,2013]{guia}
+Guía Docente (Año 2013)
+{\small $https://www.github.com/alu0100530964.git$}
+\bibitem[El n{\'u}mero PI y su historia(2011)]{Reif Acherman, Simon}
+ El n{\'u}mero PI y su historia(2011)
+{\small $https://www.ull.es$}
+\end{thebibliography}
+\end {frame}
+\end{document}
